@@ -17,15 +17,7 @@ const questions = [
             { text: "Sri lanka", correct: false },
         ],
     },
-    {
-        question: "Mayank Maliwal is known for his :-",
-        answers: [
-            { text: "Satta master", correct: false },
-            { text: "Bakchodi karna", correct: true },
-            { text: "Bambu k sath movie dekhna", correct: false },
-            { text: "Madarchod", correct: false },
-        ],
-    },
+   
    
     {
         question: "Which is the smallest continent in the world?",
@@ -46,23 +38,40 @@ const questions = [
         ],
     },
     {
-        question: "What is the name to Harsh Bhambu Setting ?",
+        question: "What is part of a database that holds only one type of information?",
         answers: [
-            { text: "Hetal", correct: false },
-            { text: "Kunika", correct: false },
-            { text: "Anuska vijay", correct: false },
-            { text: "Aastha", correct: true },
+            { text: " Report", correct: false },
+            { text: "Field", correct: true },
+            { text: "Record", correct: false },
+            { text: "File", correct: false },
         ],
     },
-    {
-        question: "What does the varun likes most?",
+     {
+        question: "What is a URL?",
         answers: [
-            { text: "Pappi", correct: false },
-            { text: "Fuddi", correct: false},
-            { text: "Lun*d", correct: true },
-            { text: "Muth Marna", correct: false },
+            { text: "A computer software program", correct: false },
+            { text: " A type of UFO", correct: false },
+            { text: "The address of a document or "page" on the World Wide Web", correct: true},
+            { text: "An acronym for Uniform Resources Learning", correct: false },
+        ],
+    }, {
+        question: "'.JPG' extension refers usually to what kind of file?",
+        answers: [
+            { text: " System file", correct: false },
+            { text: "Animation/movie file", correct: false },
+            { text: "MS Encarta document", correct: false },
+            { text: "Image file", correct: true },
+        ],
+    }, {
+        question: "Who developed Yahoo?",
+        answers: [
+            { text: "Dennis Ritchie & Ken Thompson", correct: false },
+            { text: "David Filo & Jerry Yang", correct: true },
+            { text: " Vint Cerf & Robert Kahn", correct: false },
+            { text: "Steve Case & Jeff Bezos", correct: false },
         ],
     },
+   
 ];
 
 const questionElement = document.getElementById("question");
